@@ -41,7 +41,7 @@ A Python tool to upload a large number of media files to an Immich instance. Thi
 2. Run the script with the path to the folder containing the images you want to upload:
 
     ```sh
-    python immich_bulk_uploader.py /path/to/your/images
+    python upload.py /path/to/your/images
     ```
 
 ## Code Explanation
