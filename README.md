@@ -58,7 +58,7 @@ Uploading files from folder: /path/to/your/images
 Directory: /path/to/your/images
 Sub-directory: subdir1
 image1.jpg:
-{'status': 'success', 'message': 'File uploaded successfully'}
+{'status': 'duplicate', 'id': 'id-of-th-ei-ma-ge'}
 image2.png:
-{'status': 'skipped', 'message': 'File type not supported'}
+{'id': 'id-of-th-ei-ma-ge', 'status': 'created'}
 Processed 2 files. 1 have been added to Immich, 1 have been skipped.
