@@ -3,8 +3,8 @@ import sys
 from helper import immich_uploader, is_supported
 
 
-API_KEY = ""        # replace with a valid api key
-IMMICH_URL = ""     # e.g. http://127.0.0.1:2283/api
+API_KEY = "your_api_key"                    # replace with a valid api key
+IMMICH_URL = "http://127.0.0.1:2283/api"    # replace with a valid immich url
 my_uploader = immich_uploader(api_key=API_KEY, base_url=IMMICH_URL)
 
 stat_uploaded = 0

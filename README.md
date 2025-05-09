@@ -1,6 +1,6 @@
 # Immich Bulk Uploader
 
-A Python tool to upload a large number of images to an Immich instance. This tool uses the original Python code from the Immich documentation and checks if the file is supported by Immich according to the supported media types list in the Immich documentation.
+A Python tool to upload a large number of media files to an Immich instance. This tool uses the original Python code from the Immich documentation and checks if the file is supported by Immich according to the supported media types list in the Immich documentation.
 
 ## Features
 
@@ -19,7 +19,7 @@ A Python tool to upload a large number of images to an Immich instance. This too
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/immich-bulk-uploader.git
+    git clone https://github.com/carforge/immich_bulk_upload.git
     cd immich-bulk-uploader
     ```
 
